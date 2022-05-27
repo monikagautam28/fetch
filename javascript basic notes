@@ -1,0 +1,467 @@
+/*function teacher()
+{
+    var a=10;
+    var b=20;
+    console.log(a+b);
+    console.log(a*b);
+
+}
+
+function a()
+{
+    var b=1;
+    var c=2;
+    console.log(b+c);
+    console.log(b*c);
+
+} 
+
+const m = ()=>{
+    var a=1;
+    var b=1;
+   return console.log(a+b);
+   return console.log(a*b);
+}
+m();
+
+a();
+teacher();
+
+let game ={
+    name:"vice city",
+    year:"2021",
+    color:"blue"
+}
+
+
+a=game;
+console.log(a);
+b=game.year;
+console.log(b);
+game.price=600;
+//game['price'] =600;
+game['monika']='gautam';
+game['monika  sg']='gautam';
+
+
+console.log(a);
+
+delete game['name'];
+
+console.log(a);
+
+
+let array =[{name:"monika"},{name:"shivani"},{name:"viren"}];
+array;
+console.log(array);
+array.push('monikasharma');
+console.log(array);
+array.push({name:'virender gautam'});
+console.log(array);
+array.pop('monikasharma');
+console.log(array);
+array.pop(array);
+console.log(array);
+
+
+
+let arr2=[1,2,3,4,5,6,7,8,9];
+let check =arr2.some(it=>it==='3');
+console.log(check);
+let maparray =arr2.map(element=>element*3);
+console.log(maparray);
+let filter = arr2.filter(element=>element>2);
+console.log(filter);
+
+
+
+//ForEach
+
+arr2=[1,2,4,7,56,3,2,445,667,3435,78];
+arr2.forEach(x=>{
+console.log(x)
+})
+
+
+//forEach
+
+arr3=[1,2,3,4,5,6,7,8,3,4]
+arr3.forEach(Y=>{
+    console.log(Y)
+})
+
+arr1=[2,4,5,6,7,8];
+arr2=[3,57,6,77,88,88];
+let result = arr1.concat(arr2);
+console.log(result);
+
+
+arrays=[12,45,34,23,44,5,5,5,5]
+ary=[3,67,56,434,556,45665,567756,7,56];
+let reslt = arrays.every(it=>it==2 || it>1);
+console.log(reslt);
+
+
+d=[23,45,6,4,556,55,66,2]
+re = d.some(s=>s==23);
+console.log(re);
+
+let res=()=>{
+    a=20;
+    b=30;
+    return console.log(a+b);
+}
+*/
+
+/*const m = ()=>{
+    var a=1;
+    var b=1;
+ console.log(a+b);
+ return console.log(a*b);
+ 
+}
+m();
+*/
+/*let arr = [1,2,34,5,6,6777,77];
+let x=arr.includes(20);
+console.log(x);*/
+
+
+//join
+/*let name =['m','o','n','i','k','a'];
+
+let x = name.join('');
+console.log(x);*/
+
+/*array=[12,23,4,55,44,66,777,888,8];
+let y=array.find(x=>x>66);
+console.log(y);
+
+*/
+
+/*let arr=[222,3,4,5,67,8,8,4];
+let y= arr.find(x=>x>3);
+console.log(y);
+
+const m = ()=>{
+    var a=1;
+    var b=1;
+ console.log(a+b);
+   return console.log(a*b);
+}
+m();
+
+let arr12 = [1,2,34,5,6,6777,77];
+let x=arr12.includes(20);
+console.log(x);
+
+let arrayys =[1,2,445,55,66]
+*/
+
+/*function a()
+{
+    var a =23;
+    var b =45;
+    console.log(a+b);
+}
+a();
+*/
+/*
+const a =()=>{
+    var b= 20;
+    var d= 23;
+    console.log(b+d);
+
+}
+a();
+*/
+
+/*class Employeee{
+
+    constructor(id,name)
+    {
+        this.id=id;
+        this.name=name;
+
+    }
+
+    detail()
+    {
+        console.log(this.id);
+    }
+
+
+}
+
+class sample
+{
+    constructor(id,name)
+    {
+        super(id)
+       {
+           this.id=id;
+
+       }
+    }
+}
+
+ const a =new Employeee(1,"monika");
+a.detail();
+
+const b = new sample(2,"gautam");
+
+*/
+/*class classname{
+
+    constructor(id,name){
+ 
+        this.id=id;
+        this.name=name;
+      
+
+    }
+    detail()
+    {
+        console.log(this.id);
+        console.log(this.name);
+    }
+
+}
+
+class sample extends classname{
+    constructor(name,subject)
+    {
+        //this.subject=subject;
+        super(name)
+        this.subject=subject;
+        console.log(name);
+        console.log(subject);
+    }
+
+}
+
+var a = new classname(1,"monika");
+
+a.detail();
+var b = new sample("monu","math");
+*/
+/*function a() {
+    let name = "abc";
+    console.log(name);
+    function c() {
+        console.log("def");
+        console.log(this.name);
+    }
+}
+
+var d = a();
+d.c();
+*/
+
+/*The Java new keyword is used to create an instance of the class. 
+In other words, it instantiates a class by allocating memory for a new object and 
+returning a reference to that memory. We can also use the new keyword to create the array 
+object.*/
+
+
+/*const video =
+{
+    title:"name",
+ detail(){
+     console.log(array)
+ }
+ {
+     console.log(this);
+ }
+}
+video.detail();
+/*const playvideo =
+{
+    title:"abc",
+    arr:['a','b','c','d','e','f'],
+    showimage(){
+      this.arr.forEach(function(array){
+          console.log(array)
+      })
+    }
+}
+
+playvideo.showimage();*/
+
+
+/*function a() {
+    let name = "abc";
+    console.log(name);
+    return c();
+    function c() {
+        console.log("def");
+        console.log(this.name);
+    }
+}
+
+var d = a();
+*/
+
+/*\const a ={
+    title:"name",
+    play()
+    {
+        console.log(this);
+
+    }
+}
+a.play();
+
+a.stop= function()
+{
+    console.log(this);
+}
+
+a.stop();
+
+
+function playvideo()
+{
+    console.log(this);
+}
+playvideo();*/
+
+/*var a =10;
+function name()
+{
+    var x=20;
+    console.log(a);
+    console.log(x);
+
+}
+console.log(this.x);
+name();
+*/
+/*const person ={
+    name:"abc",
+    class:"first",
+    rollnumber:1,
+    fullname:function(){
+        console.log(this.name);
+    }
+
+}
+person.fullname();
+*/
+
+/*const counter = {
+    name:"monika gautam",
+    class:"first",
+    next:function(){
+        console.log(this.name);
+        console.log(this.first);
+    }
+
+}
+counter.next();
+*/
+/*var a = 20;
+console.log(a);
+*/
+/*function show() {
+    console.log(this === window); // true
+ }
+ 
+ window.show();
+ */
+
+
+
+ //Method Invocation
+/*var bike =
+{
+    brand: "Royal Enfield",
+    name: "bullet",
+    getbrand: function () {
+        console.log(this.brand);
+        console.log(this.name);
+    }
+}
+
+let a=bike.getbrand;
+
+console.log(a);
+let d =bike.brand;
+console.log(d);
+*/
+
+/*var abc =
+{
+    brand:"def",
+    name:"efg",
+
+    getbrand:function(){
+    console.log(this.getbrand);
+    console.log(this.name);
+
+    }
+}
+
+let d=abc.getbrand;
+console.log(d);*/
+
+/*const abc = 
+{
+    title:"cars",
+    brand()
+    {
+        console.log(this);
+
+    }
+
+    
+
+}
+
+abc.start = function(){
+    console.log(this);
+}
+abc.brand();
+abc.start();
+*/
+// function video(title)
+// {
+//     tags:['a','b','c'];
+//     this.title=title;
+//     console.log(this);
+// }
+// const v = new video('a');
+
+// let a =['abc','def','ghi','ijk','jkl'];
+// let b =['mon','ika','pun','isssi','okoo'];
+// let d=a.concat(b);
+// console.log(d);
+
+
+
+class car{
+
+}
+let me = new car();
+console.log(me);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
